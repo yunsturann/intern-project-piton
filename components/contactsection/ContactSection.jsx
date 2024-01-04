@@ -6,7 +6,7 @@ import Form from "./Form";
 const ContactSection = () => {
   return (
     <section className="py-10 lg:py-40 px-[6%] lg:px-20">
-      <div className="container flex justify-center 2xl:justify-between flex-wrap gap-x-[155px] gap-y-8">
+      <div className="container flex justify-center 2xl:justify-between flex-wrap gap-x-[155px] gap-y-8 md:gap-y-24">
         {/*Side Image */}
         <div className=" bg-var-yellow-avatar p-12 lg:pl-[140px] lg:pt-[160px] lg:pr-[104px] lg:pb-[75px]">
           <Image

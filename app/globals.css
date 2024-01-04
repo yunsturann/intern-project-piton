@@ -1,8 +1,18 @@
-/*Font Manrope*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input-field {
+    @apply w-full border-2 border-opacity-60 bg-var-white border-black py-4 pl-2 sm:pl-8 focus:outline-1 focus:outline-blue-800 transition duration-300;
+  }
+}
+
+main {
+  font-family: "Manrope", sans-serif;
+}
 
 .card-shadow {
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);

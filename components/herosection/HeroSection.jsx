@@ -16,11 +16,11 @@ const HeroSection = () => {
       <Image src={bg} alt="bg" fill className="absolute -z-30" />
       {/*Shapes */}
       <div className="-z-10 absolute top-32 bottom-64 md:top-16 md:bottom-32 left-16 w-[32%] -rotate-3">
-        <Image src={shape_1} alt="shape" fill />
+        <Image src={shape_1} alt="shape1" className="w-full h-full" />
       </div>
 
       <div className="-z-20 absolute top-20 bottom-20 md:top-4 md:bottom-4 right-16 w-[70%] ">
-        <Image src={shape_2} alt="shape" fill />
+        <Image src={shape_2} alt="shape2" fill />
       </div>
 
       {/*Title*/}
@@ -29,7 +29,7 @@ const HeroSection = () => {
       </h1>
 
       {/*Hero Image*/}
-      <div className="absolute bottom-0 grid grid-cols-6">
+      <div className="absolute bottom-0 container grid grid-cols-6">
         {hands.map(({ id, img }) => (
           <Image
             key={id}
