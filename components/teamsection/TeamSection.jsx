@@ -6,9 +6,12 @@ const TeamSection = () => {
   return (
     <section className="px-[6%] lg:px-[144px] py-20 lg:py-40 2xl:py-52">
       <div className="container">
+        {/*section title */}
         <h2 className="text-center font-bold text-2xl sm:text-3xl lg:text-[44px]">
           Meet the heroes behind the magic
         </h2>
+
+        {/*Card Container */}
         <ul className="flex flex-wrap justify-center gap-6 lg:gap-12 mt-12 lg:mt-24 ">
           {/*Cards*/}
           {teamMembers.map((item) => (

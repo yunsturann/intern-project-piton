@@ -4,6 +4,7 @@ import { metrics } from "@/constants/data";
 const MetricSection = () => {
   return (
     <section className="bg-var-black px-[4%] xl:px-[100px] py-12 xl:py-16">
+      {/*Metrics Container */}
       <div className="container flex justify-between items-center gap-4 text-var-primary-darker">
         {
           // Metric Section

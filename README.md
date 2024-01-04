@@ -9,15 +9,15 @@
 
 ## Yapılacaklar
 
-[x] Setup; image yüklemeleri ve constantların belirlenmesi.
-[x] tailwind color variable tanımlamaları ve container yapısı
-[x] Hero section
-[x] Into section
-[x] Mid image
-[x] team members
-[x] metrics
-[x] contact
-[x] son responsive kontrolü
+- [x] Setup; image yüklemeleri ve constantların belirlenmesi.
+- [x] tailwind color variable tanımlamaları ve container yapısı
+- [x] Hero section
+- [x] Into section
+- [x] Mid image
+- [x] team members
+- [x] metrics
+- [x] contact
+- [x] son responsive kontrolü
 
 ## Sonraki aşamada projeye eklenebilecekler
 

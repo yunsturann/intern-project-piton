@@ -12,10 +12,10 @@ import ContactSection from "@/components/contactsection/ContactSection";
 
 export default function Home() {
   return (
-    // landing page
     <main className="min-h-screen text-var-black">
       <HeroSection />
       <IntoSection />
+      {/* Mid Image Section */}
       <section className="h-[200px] sm:h-[280px] lg:h-[430px] 2xl:h-[630px] px-[4%] lg:px-[100px]">
         <div className="container h-full relative ">
           <Image src={midImg} alt="mid-img" fill />
