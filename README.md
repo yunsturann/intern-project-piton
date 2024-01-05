@@ -1,4 +1,4 @@
-# Piton Technology Front-End stajer başvurumun projesi
+# Piton Technology Front-End stajyer başvurumun projesi
 
 ## Değerlendirmelerim
 
